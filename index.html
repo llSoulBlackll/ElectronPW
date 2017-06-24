@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Electron PW</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+       <div id="Father">
+        <!--<h1>Hello this is our first app using Electron.js</h1>
+        <p>We are using node <script>document.write(process.versions.node)</script>
+          <br>
+          Chronium <script>document.write(process.versions.chrome)</script>
+          <br>
+          and Electron <script>document.write(process.versions.electron)</script>
+        </p>-->
+        <h1>Ingrese sus Credenciales</h1>
+        <p>Usuario</p>
+        <input type="text">
+        <p>Contrseña</p>
+        <input type="text" placeholder="Minimo 3 caracteres">
+        <button id="btn" type="submit"></button>
+       </div>
+    </body>
+
+    <script>
+        var button = document.getElementById("btn");
+        button.onclick = function(){
+            alert("BUTTON CLICKED!", "AM I A TITLE?");
+        };
+    </script>
+    
+</html>
