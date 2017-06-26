@@ -1,0 +1,38 @@
+body{
+    background-color: #033344;
+}
+#Father{
+    padding: 25px;
+    color: gainsboro;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+#Father > h1{
+    font-size : 20px;
+}
+
+#Father > input{
+    background-color: #033555;
+    border-color : black;
+    color: gainsboro;
+    font-size: 17px;
+}
+
+button{
+    display : block; /*ALLOWS BEHAVIOUR LIKE STACKPANEL*/
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+button:visited{
+    border : none;
+}
