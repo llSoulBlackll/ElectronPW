@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>Electron PW</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="C:\Users\siste\OneDrive\Documentos\Tareas\Electron\ElectronPW\node_modules\bootstrap\css\bootstrap.css">
+        <link rel="stylesheet" href="styles.css"><!--REMEMEBER THE HIRARCHY ONE OVERRIDES THE OTHER-->
     </head>
 
-    <body>
-       <div id="Father">
+    
         <!--<h1>Hello this is our first app using Electron.js</h1>
         <p>We are using node <script>document.write(process.versions.node)</script>
           <br>
@@ -15,13 +15,23 @@
           <br>
           and Electron <script>document.write(process.versions.electron)</script>
         </p>-->
+    <body>
+      <div class="alert alert-danger">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <strong>Title!</strong> Alert body ...
+      </div>
+
+      <div id="Father" class="container-fluid">
         <h1>Ingrese sus Credenciales</h1>
         <p>Usuario</p>
         <input type="text">
         <p>Contrseña</p>
         <input type="text" placeholder="Minimo 3 caracteres">
         <button id="btn" type="submit">INGRESAR</button>
-       </div>
+      </div>
     </body>
+    
+<script>window.$ = window.jQuery = require('../node_modules/jquery/jquery-3.2.1.min.js');</script>
+<script src="C:\Users\siste\OneDrive\Documentos\Tareas\Electron\ElectronPW\node_modules\bootstrap\js\bootstrap.js"></script>
 <script src="login.js"></script>
 </html>

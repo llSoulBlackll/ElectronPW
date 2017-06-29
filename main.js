@@ -8,9 +8,13 @@ const BrowserWindow = electron.BrowserWindow
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
+//window.jQuery = window.$ = require("node_modules/jquery/jquery-3.2.1.min.js")
+//import 'node_modules/bootstrap/js/bootstrap.js'
+//import 'node_modules/bootstrap/css/bootstrap.css'
+
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 500, height: 400})
+  mainWindow = new BrowserWindow({width: 700, height: 600})
 
   // and load the index.html of the app.
   mainWindow.loadURL(`file://${__dirname}/login/index.html`)
