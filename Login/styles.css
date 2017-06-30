@@ -12,11 +12,11 @@ body{
     font-size : 20px;
 }
 
-#Father > input{
-    background-color: #033555;
+#Father > div > input{
+    font-size: 17px;
     border-color : black;
     color: gainsboro;
-    font-size: 17px;
+    background-color: #033555;
 }
 
 button{
@@ -26,6 +26,7 @@ button{
     height: 35px;
     width: 120px;
     border: none;
+    color: black;
 }
 
 button:hover{
@@ -35,4 +36,8 @@ button:hover{
 
 button:visited{
     border : none;
+}
+
+div{
+    padding: 5px; 
 }
