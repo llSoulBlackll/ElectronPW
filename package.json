@@ -3,6 +3,25 @@
   "version": "0.1.0",
   "main": "main.js",
   "dependencies": {
-    "bootstrap": "^3.3.7"
-  }
+    "bootstrap": "^3.3.7",
+    "request": "^2.81.0"
+  },
+  "description": "Introduccion a Electron y sus capacidades para jovenes desarrolladores",
+  "devDependencies": {
+    "electron-packager": "^8.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llSoulBlackll/ElectronPW.git"
+  },
+  "keywords": [],
+  "author": "I",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llSoulBlackll/ElectronPW/issues"
+  },
+  "homepage": "https://github.com/llSoulBlackll/ElectronPW"
 }

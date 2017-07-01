@@ -16,14 +16,14 @@ let mainWindow
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 700, height: 600, frame: false})
+  mainWindow = new BrowserWindow({width: 800, height: 700, frame:false})
 
   // and load the index.html of the app.
-  mainWindow.loadURL(`file://${__dirname}/login/index.html`)
+  mainWindow.loadURL(`file://${__dirname}/login/login.html`)
 
   // Open the DevTools.
 
-  ///mainWindow.webContents.openDevTools()//OPENS DEV
+  //mainWindow.webContents.openDevTools()//OPENS DEV
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
@@ -32,6 +32,12 @@ function createWindow () {
     // when you should delete the corresponding element.
     mainWindow = null
   })
+}
+
+exports.openWindow = () => {
+  let win = new BrowserWindow({ width: 700, height: 600, frame:false });
+  win.webContents.openDevTools();
+  win.loadURL(`file://${__dirname}/api/api.html`)
 }
 
 // This method will be called when Electron has finished

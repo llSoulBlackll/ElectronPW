@@ -1,0 +1,18 @@
+  body {
+    background: black;
+    color: white;
+    font-family: 'Source Code Pro','arial';
+    text-align: center;
+  }
+  .the-price {
+    font-size: 35px;
+  }
+  .up {
+    color: green;
+  }
+  .noChange {
+    color: grey;
+  }
+  .down {
+    color: red;
+  }
