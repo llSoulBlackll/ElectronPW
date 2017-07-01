@@ -36,7 +36,7 @@ function createWindow () {
 
 exports.openWindow = () => {
   let win = new BrowserWindow({ width: 700, height: 600, frame:false });
-  win.webContents.openDevTools();
+  //win.webContents.openDevTools();
   win.loadURL(`file://${__dirname}/api/api.html`)
 }
 

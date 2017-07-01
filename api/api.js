@@ -9,6 +9,8 @@ var request = require('request');
       });
     }, 1000);
 
+
+
     var lastPrice = 0;
     function newPrice(arr) {
       currentPrice = arr[0]["l"];

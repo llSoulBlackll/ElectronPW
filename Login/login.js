@@ -6,7 +6,6 @@ const main = remote.require('./main.js');
 var login_win = remote.getCurrentWindow();
 //var menu = remote.require('menu');
 
-
 var button = document.getElementById("btn");
 button.onclick = function () {
     // alert("BUTTON CLICKED!", "AM I A TITLE?");
