@@ -27,6 +27,8 @@ button{
     width: 120px;
     border: none;
     color: black;
+    margin-left: 28px;
+    width:180px;
 }
 
 button:hover{
@@ -40,4 +42,8 @@ button:visited{
 
 div{
     padding: 5px; 
+}
+
+input, button{
+   -webkit-app-region: no-drag;
 }
